@@ -1,0 +1,7 @@
+/* 17_grouping.wb
+
+   Expression grouping with parens.  Note: a parenthesized
+   expression can be treated as a factor. */
+
+print (1+2)*(3+4);
+print (1+2*(3+4))*5;

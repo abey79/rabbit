@@ -1,0 +1,7 @@
+/* program1.wb
+
+This is a very basic Wabbit program. It prints a value. */
+
+print 42;
+
+

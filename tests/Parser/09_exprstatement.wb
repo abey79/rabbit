@@ -1,0 +1,12 @@
+/* 09_exprstatement.wb
+
+   Normally expressions appear in combination with statements such
+   as print.  However, an expression can appear all by itself with
+   a terminating semicolon.
+
+   Note: This is likely to be a weird corner case in your parser.
+   If you choose to ignore it, you'll get by fine with the project,
+   but just be aware that it's a potential issue for later.
+*/
+
+1;

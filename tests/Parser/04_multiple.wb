@@ -1,0 +1,27 @@
+/* 04_multiple.wb
+
+   Modify your parser so that it can parse multiple statements.  You'll
+   need to write code that collects statements into a list of some kind.
+   One way to do this is to write a parsing rule involving a loop:
+
+   def parse_statements(parser):
+       statements = [ ]
+
+       while True:
+           statement = parse_statement(parser)
+	   statements.append(statement)
+	   
+       return Statements(statements)
+	   
+   However, a tricky part of this is knowing when you need to stop looping.
+   You might need to peek ahead to see if you're at the end of the file
+   or a statement block.  If so, you'd break out of the loop and return a
+   a result.
+
+*/
+
+print 1;
+print 2;
+print 3;
+
+

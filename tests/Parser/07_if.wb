@@ -1,0 +1,10 @@
+/* 07_if.wb
+
+   Parse an if-statement. The else clause is optional.  Zero or more
+   statements can appear inside the braces, but you already wrote code
+   that parses multiple statements.   Can you reuse it here?
+*/
+
+if 1 { print 2; } else { print 3; }
+if 1 { print 2; }
+

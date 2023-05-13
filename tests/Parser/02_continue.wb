@@ -1,0 +1,27 @@
+/* 02_continue.wb
+
+   Parse a single isolated continue statement. This is also 
+   two tokens (CONTINUE, SEMI) like the break statement so
+   write a rule that looks just like that.
+
+   The new feature is that your parser must now recognize both
+   "break" and "continue."  To do this, you're going to use
+   predictive parsing where you peek at the upcoming token and
+   make a decision. Write a rule "parse_statement()" like this:
+
+   def parse_statement(parser):
+       if parser.peek('BREAK'):
+           return parse_break_statement(parser)
+       elif parser.peek('CONTINUE'):
+           return parse_continue_statemen(parser)
+       else:
+           raise SyntaxError("Expected a statement")
+
+   The `peek()` method of the parser in this example looks at the next
+   token to see if it matches, but it does not advance forward.
+
+   Now make sure your parser can parse both the 01_break.wb file and
+   this file.
+*/
+
+continue;

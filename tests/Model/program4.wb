@@ -1,0 +1,11 @@
+/* program4.wb
+
+Wabbit has constants, variables, and assignment. 
+*/
+
+const pi = 3.14159;           // Could also include a type: `const pi float = 3.14159;`
+var radius = 4.0;             // Could also include a type: `var radius float = 4.0;`
+var perimeter float;
+perimeter = 2.0*radius*pi;
+print perimeter;             // Should produce 25.13272
+

@@ -1,0 +1,8 @@
+/* program2.wb
+
+This program contains two statements and introduces a
+floating point value. Part of your challenge here is
+figuring out how to represent multiple statements. */
+   
+print 42;
+print 2.3;

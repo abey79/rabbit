@@ -1,0 +1,14 @@
+/* program6.wb
+
+Wabbit supports looping with the while statement.  This program
+prints out the first 10 factorials.
+*/
+
+var x int = 1;
+var fact int = 1;
+
+while x < 11 {
+    fact = fact * x;
+    x = x + 1;
+    print fact;
+}
